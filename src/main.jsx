@@ -7,7 +7,7 @@ import { GoogleOAuthProvider, GoogleLogin, googleLogout } from '@react-oauth/goo
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <GoogleOAuthProvider clientId='client_id_to_be_replaced'>
+    <GoogleOAuthProvider clientId=''>
       <App />
     </GoogleOAuthProvider>
   </StrictMode>,
