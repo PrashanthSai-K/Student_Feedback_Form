@@ -30,7 +30,7 @@ function GoogleSignInButton({ onSignIn, onSignOut }) {
 
         google.accounts.id.initialize({
             client_id:
-                "432675030334-ieq9kj4b892j6n5j6topj4j3h4jr6q4t.apps.googleusercontent.com", //  Client ID
+                "", //  Client ID
             callback: handleCredentialResponse,
             ux_mode: "popup",
         });

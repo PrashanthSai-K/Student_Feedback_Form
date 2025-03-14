@@ -25,7 +25,7 @@ import { ToastContainer, toast } from "react-fox-toast";
 
 // Replace with your Firebase config
 const firebaseConfig = {
-  apiKey: "api_key_to_be_replaced",
+  apiKey: "",
   authDomain: "fir-cb776.firebaseapp.com",
   projectId: "fir-cb776",
   storageBucket: "fir-cb776.firebasestorage.app",
